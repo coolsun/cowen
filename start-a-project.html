@@ -37,7 +37,7 @@
     <!-- Preloader -->
     <div class="preloader">
         <img src="assets/images/preloader.png" alt="">
-        <h4>Crowen</h4>
+        <h4>101 Moo</h4>
     </div> <!--Preloader -->
   
     <!--Header Top-->
@@ -47,8 +47,8 @@
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
                     <div class="single-header-top">
                         <ul>
-                            <li><a href="">Explore</a></li>
-                            <li><a href="">Start a project</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="start-a-project.html">Start a project</a></li>
                         </ul>
                     </div>
                 </div>
@@ -149,34 +149,61 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <div class="start-project-content">
+                        <h2>Enter your Campaign Goal</h2><br>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">$</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                        </div><br>
                         <form action="#">
+                            <textarea name="project-name" rows="1" placeholder="My Campaign"></textarea>
+                            <textarea name="message" rows="5" placeholder="My campaign is for..."></textarea>
                             <div class="form-select">
                                 <select name="project-select">
-                                    <option value="">Select your project</option>
+                                    <option value="">Choose a category</option>
                                     <option value="">Select your project</option>
                                     <option value="">Select your project</option>
                                     <option value="">Select your project</option>
                                     <option value="">Select your project</option>
                                 </select>
                             </div>
-                            
-                            <textarea name="message" rows="5" placeholder="Write about your project"></textarea>
                             <div class="form-select">
                                 <select name="project-select">
-                                    <option value="">Select your Country</option>
-                                    <option value="">Select your Country</option>
-                                    <option value="">Select your Country</option>
-                                    <option value="">Select your Country</option>
-                                    <option value="">Select your Country</option>
+                                    <option value="">Select your country</option>
+                                    <option value="">Select your country</option>
+                                    <option value="">Select your country</option>
+                                    <option value="">Select your country</option>
+                                    <option value="">Select your country</option>
                                 </select>
                             </div>
-
+                            <div class="upload-img">
+                                <span>Upload campaign image</span>
+                                <div class="file-field">
+                                    <div class="btn btn-primary btn-sm">
+                                        <input type="file">
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Please verify the following:</h6>
                             <div class="form-tick">
-                                <p><i class="fa fa-check-circle"></i>I am at least 18 years old.</p>
-                                <p><i class="fa fa-check-circle"></i>I can verify a bank account and government-issued ID.</p>
-                                <p><i class="fa fa-check-circle"></i>I have a debit and/or credit card.</p>
+                                <label class="custom-control fill-checkbox">
+                                    <input type="checkbox" class="fill-control-input">
+                                    <span class="fill-control-indicator"></span>
+                                    <span class="fill-control-description">I am at least 18 years old.</span>
+                                </label>  
+                                <label class="custom-control fill-checkbox">
+                                        <input type="checkbox" class="fill-control-input">
+                                        <span class="fill-control-indicator"></span>
+                                        <span class="fill-control-description">I can verify a bank account and government-issued ID.</span>
+                                </label>
+                                <label class="custom-control fill-checkbox">
+                                        <input type="checkbox" class="fill-control-input">
+                                        <span class="fill-control-indicator"></span>
+                                        <span class="fill-control-description">I have a debit and/or credit card.</span>
+                                </label>  
                             </div>
-                            <button class="bttn-mid btn-fill" type="submit">Continue</button>
+                            <button class="bttn-mid btn-fill" type="submit">Create Campaign</button>
                         </form>
                     </div>
                 </div>
@@ -184,10 +211,8 @@
         </div>
     </section><!--/start-project Area -->
 
-    
-
     <!--Footer Area-->
-    <footer class="footer-area section-padding-2 light-overlay" style="background: url('assets/images/footer-bg.jpg') no-repeat;">
+    <footer class="footer-area footer-padding light-overlay" style="background: url('assets/images/footer-bg.jpg') no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
